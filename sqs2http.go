@@ -8,11 +8,11 @@ import (
 	"net/http"
 	"sync"
 
-	"github.com/chaseisabelle/backoff/expbo"
-	"github.com/chaseisabelle/flagz"
-	"github.com/chaseisabelle/sqsc"
-	"github.com/chaseisabelle/stop"
 	"github.com/g3n/engine/util/logger"
+	"github.com/vestiaire-collective/backoff/expbo"
+	"github.com/vestiaire-collective/flagz"
+	"github.com/vestiaire-collective/sqsc"
+	"github.com/vestiaire-collective/stop"
 )
 
 // main process
