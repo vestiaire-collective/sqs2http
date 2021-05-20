@@ -1,6 +1,6 @@
 FROM golang:latest AS sqs2http
 
-WORKDIR /go/src/github.com/chaseisabelle/sqs2http
+WORKDIR /go/src/github.com/vestiaire-collective/sqs2http
 
 COPY ./go.sum ./
 COPY ./go.mod ./
